@@ -1,3 +1,14 @@
-.header-1 {
+body{
+    height: 100%;
+    width: 100%
+}
+.Menu-principal {
     background-color: #252323;
+    height: 60px;
+}
+main{
+    margin: 0 auto
+    width: 980px;
+    float: left;
+    position: relative;
 }
