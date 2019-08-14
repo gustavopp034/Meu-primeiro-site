@@ -1,7 +1,9 @@
 body{
     height: 100%;
     width: 100%
-
+}
+ul{
+    padding: 0px!important;
 }
 .Menu-principal {
     background-color: #252323;
@@ -25,8 +27,13 @@ main{
 }
 .header-2 {
     background-color: white;
-    width: 100%;
-    border-bottom: 3px solid #efefef;    
+    width: 980px;
+    margin: 0 auto;  
+    padding: 16px; 
+}
+.menu-urls{
+    border-bottom: 3px solid #efefef;
+    height: 84px; 
 }
 .Menu ul li{
     display: inline-block;
@@ -37,13 +44,29 @@ main{
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
-    text-transform: uppercase;    
+    text-transform: uppercase;     
 }
 .Menu{
     width:  70%;
     float: left;
 }
 .busca{
+    text-align: center;
     width: 30%;
+    float: right;
+}
+.busca input{
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 20px;
+    padding: 5px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
     float: left;
+    position: relative;
 }
