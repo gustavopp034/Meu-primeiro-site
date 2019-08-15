@@ -40,6 +40,13 @@ main{
     color: #8b8b8b;
     margin-left: 15px;
 }
+.Menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+    height: 50px;
+}
+.Menu ul li a:hover{
+    color: #00bac6;
+}
 .Menu ul li a{
     color: #8b8b8b;
     text-decoration: none;
