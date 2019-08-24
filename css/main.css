@@ -104,6 +104,12 @@ button.slick-next{
     right: 15%;
     z-index: 9;
 }
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
 ul.slick-dots li button{
     font-size: 0px;
     border: 5px solid white;
@@ -113,13 +119,18 @@ ul.slick-dots li button{
     border-radius: 50%;
     cursor: pointer;
 }
-li.slick-active  {
-    background: #00bac6;
-    border-radius: 50%;
-}
 .slick-dots li{
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
+    height: 16;
+    width: 17;
+}
+ul.slick-dots li.slick-active button {
+    background-color: #00bac6;
+}
+.slick-dots li {
+    padding-left: 5px;
+    display: inline-block;
 }
 .slick-dots {
     margin: 0 auto;
@@ -128,7 +139,38 @@ li.slick-active  {
     left: 47%;
     top: 95%;
 }
-.slick-initialized {
-    overflow: hidden;
+.content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
 }
-
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque h1{
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: Myriad Pro;
+}
+.texto-destaque strong{
+    color: #646464;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.col-3 strong{
+    color:  #7b7b7b;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.col-3 h3{
+    font-size: 20px;
+    color: #9b9b9b;
+}
+.col-3 p{
+    font-size: 14px;
+}
