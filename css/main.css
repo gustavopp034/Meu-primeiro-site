@@ -174,3 +174,13 @@ ul.slick-dots li.slick-active button {
 .col-3 p{
     font-size: 14px;
 }
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    position: relative;
+    float: left;
+}
+.bloco-texto{
+    margin-top: 2cm;
+}
